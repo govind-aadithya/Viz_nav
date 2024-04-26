@@ -10,7 +10,9 @@ Grph SLAM stores the keypoints and descriptors alongside the current pose as a l
 The VPR in this solution is implemented as a simple key point and feature search over the Graph. The node with maximum match over a threshold is then extracted as the target location. This solution can be further fine tuned with an implementation leveraging Visual Bag Of Words or VLAD leveraging the fact that the patterns that could occur in the maze are already know.
 
 Below is a visual representation of the solution.
+Graph SLAM:
 ![Graph SLAM: Building the Graph](/Solution/GraphSLAM.gif)
 
+VPR and Navigation:
 ![Graph SLAM: Building the Graph](/Solution/VPR-gif.gif)
 
